@@ -5,7 +5,7 @@ import { EmotionInput } from './components/EmotionInput';
 import { ResponseCard } from './components/ResponseCard';
 import type { ApiResponse, Faith } from './types';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://religion-ai-agents.onrender.com';
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
