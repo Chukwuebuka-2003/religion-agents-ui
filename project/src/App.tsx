@@ -8,7 +8,7 @@ import { ResponseCard } from "./components/ResponseCard";
 import { LoadingSpinner } from "./components/LoadingSpinner";
 import type { ApiResponse, Faith } from "./types";
 
-const API_URL = "https://religion-ai-agents.vercel.app";
+const API_URL = "https://religion-ai-agents.onrender.com";
 
 function App() {
     const [isLoading, setIsLoading] = useState(false);
